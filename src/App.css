@@ -1,0 +1,90 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #337ab7;
+}
+.ontop {
+    z-index: 1;
+}
+#nav-tab .nav-link {
+    line-height: 60px;
+}
+.flink a {
+    text-decoration: none;
+    color: #097bbf;
+}
+.flink a:hover {
+    text-decoration: underline;
+}
+.form-control:focus {
+    box-shadow: inset 1px 1px 4px rgb(0 0 0 / 10%);
+    border: none;
+    border-bottom: 2px solid silver;
+}
+#nav-tab .nav-link:not(.active){
+    background-color:#f9fbfb;
+    box-shadow:inset 1px 1px 4px rgb(0 0 0 / 10%);
+    border:0;
+}
+#nav-tab .nav-link{
+    border:0;
+    color: inherit;
+}
+.form-control {
+    box-shadow: inset 1px 1px 4px rgb(0 0 0 / 10%);
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+input[type="checkbox"] {
+    background-color: #f8f9fa;
+    box-shadow: inset 1px 1px 4px rgb(0 0 0 / 10%);
+    border: 0;
+}
+input[type="checkbox"]:focus {
+    background-color: #f8f9fa;
+    box-shadow: inset 1px 1px 4px rgb(0 0 0 / 10%);
+}
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+input[type="checkbox"]:checked {
+    background-color: #1ba94c;
+    box-shadow: none;
+}
+.c-button {
+    color: #fff;
+    transition: all ease 0.6s;
+    font-weight: 700;
+    background-color: #1ba94c;
+    box-shadow: 0 4px 12px 0 rgba(27, 169, 76, .5);
+}
+.c-button:hover {
+    color: #fff;
+    background-color: #1ba94c;
+    box-shadow: 2px 2px 4px 0 rgba(27, 169, 76, .5);
+}
+/*.bg-prple{
+    background-color:#6f42c1;
+}
+.text-prple{
+    color:#6f42c1;
+}*/
+
+/*.b-radius-1 {
+border-radius:0.25rem;
+}
+.b-radius-2 {
+ border-radius:0.50rem;
+}
+.b-radius-3 {
+border-radius:0.75rem;
+}
+.b-radius-4 {
+border-radius:1rem;
+}
+.b-radius-5 {
+border-radius:1.5rem;
+}*/
+/*.box-shadowcs{
+    box-shadow: inset 1px 1px 4px rgb(0 0 0 / 10%);
+    border:0;
+}*/
